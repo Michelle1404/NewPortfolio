@@ -31,6 +31,14 @@
       #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.blue-gradient {
+  background: rgb(57, 204, 204);
+  background: linear-gradient(-90deg, rgba(57, 204, 204, 0.8743872549019608) 0%,
+    rgba(0, 0, 0, 0.034) 100%);
+  background: -webkit-linear-gradient(-90deg,
+        rgba(57, 204, 204, 0.8743872549019608) 0%,
+        rgba(0, 0, 0, 0.034) 100%);
+}
 
 .violet-gradient {
   background: #804dee;

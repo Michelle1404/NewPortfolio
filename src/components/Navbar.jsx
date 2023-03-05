@@ -16,9 +16,9 @@ const Navbar = () => {
           setActive("");
           Window.scrollTo(0,0);
         }}>
-          <img src={logo} alt="logo" className='w-15 h-12 object-contain' />
+          <img src={logo} alt="logo" className='w-24 h-22 object-contain logoF' />
           <p className='text-white text-[18px] font-bold flex'>Michelle
-            <span className='sm:block hidden'>| Wollowski</span>
+            <span className='sm:block hidden'>&nbsp; Wollowski</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

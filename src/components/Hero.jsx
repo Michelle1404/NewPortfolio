@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -7,29 +6,29 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-5 h-5 rounded-full bg-[#39cccc]' />
+          <div className='w-1 sm:h-80 h-40 blue-gradient' />
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Michelle</span>
+          <h1 className={`${styles.heroHeadText} text-white `}>
+            Hi, Ich bin <span className='text-[#ff4057]'>Michelle</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Web Sites, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Junior Web Developer <br className='sm:block hidden' />
+            MERN-Stack
           </p>
         </div>
       </div>
+      {/* <ComputersCanvas /> */}
 
-      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[30px] h-[50px] rounded-3xl border-4 border-[#39cccc] flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 15, 0],
@@ -39,7 +38,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-[#ff4057] mb-1'
             />
           </div>
         </a>
