@@ -40,6 +40,11 @@
         rgba(0, 0, 0, 0.034) 100%);
 }
 
+.blue-gradient-red {
+  background: rgb(57, 204, 204);
+    background: linear-gradient(90deg, rgba(57, 204, 204, 0.8743872549019608) 0%, rgba(57, 204, 204, 0.4990371148459384) 47%, rgba(255, 64, 87, 1) 100%);
+}
+
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
