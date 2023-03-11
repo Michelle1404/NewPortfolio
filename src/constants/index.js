@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  express,
+  sass,
+  bootstrap,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -96,6 +100,22 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "Express.JS",
+    icon: express,
+  },
+  {
+    name: "SASS",
+    icon: sass,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
 ];
 
 const experiences = [
@@ -115,7 +135,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Tesla",
-    icon: tesla,
+    icon: dci,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [

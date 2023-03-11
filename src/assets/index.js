@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import express from "./tech/express.png";
+import sass from "./tech/sass.png";
+import bootstrap from "./tech/bt.png";
+import firebase from "./tech/firebase.png";
 
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -59,4 +63,8 @@ export {
   jobit,
   tripguide,
   dci,
+  express,
+  sass,
+  bootstrap,
+  firebase,
 };
