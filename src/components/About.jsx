@@ -8,19 +8,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}><span className='text-[#39cccc]'>Overview.</span></h2>
+        <p className={styles.sectionSubText}>EINFÜHRUNG</p>
+        <h2 className={styles.sectionHeadText}><span className='text-[#39cccc]'>Überblick.</span></h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Ich bin Michelle, 23 Jahre alt, eine angehende Junior Webentwicklerin im MERN-Stack-Bereich. Meine Leidenschaft ist es, kreative und benutzerfreundliche Webseiten zu gestalten. Ich befinde mich derzeit in einem einjährigen Webentwickler-Kurs, der endet im Juli 2023. Während dieses Kurses habe ich die Möglichkeit, die neuesten Technologien und Methoden der Webentwicklung zu erlernen und meine Fähigkeiten durch praktische Projekte zu verbessern. Ich bin begeistert von der Möglichkeit, meine Karriere als Webentwicklerin zu starten und meine Fähigkeiten in diesem ständig wachsenden Bereich zu erweitern.
       </motion.p>
     </>
   );

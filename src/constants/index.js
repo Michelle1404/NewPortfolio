@@ -32,15 +32,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Über mich",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projekte",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Kontakt",
   },
 ];
 
@@ -120,29 +120,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: `Weiterbildung: Web- und Softwareentwickler/in`,
+    company_name: "DCI Digital Career Institute GmbH",
     icon: dci,
     iconBg: "#E6DEDD",
-    date: "March 2020 - April 2021",
+    date: "JUNI 2022 — AUGUST 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "1-jährige Vollzeit Weiterbildung im Bereich Full-Stack Webentwicklung (MERN Stack)",
+      "Durchführung mehrerer Projekte",
+      "Abschließenden praktischen Projekts zur Festigung der Programmierkenntnisse",
+      "Teilnahme am Englischunterricht im Rahmen des Kurses",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Orientierungskurs: Web-Development und Online Marketing",
+    company_name: "DCI Digital Career Institute GmbH",
     icon: dci,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "APRIL 2022 — MAI 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Webentwicklung, erste Schritte im HTML und CSS",
+      "Online Marketing",
+      "Cloud Computing und Amazon Web Services",
     ],
   },
 ];
@@ -177,8 +176,6 @@ const testimonials = [
 const projects = [
   {
     name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -198,8 +195,6 @@ const projects = [
   },
   {
     name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
@@ -219,8 +214,6 @@ const projects = [
   },
   {
     name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "nextjs",
