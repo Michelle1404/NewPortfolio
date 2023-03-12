@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import LogoCanvas from "./canvas/logo";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -23,10 +23,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-        <LogoCanvas />
-      <div className='absolute xs:bottom-30 bottom-40 w-full flex justify-center items-center'>
-        <span>Du kannst das Logo bewegen</span>
-      </div>
+        <ComputersCanvas /> 
       <div className='absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[30px] h-[50px] rounded-3xl border-4 border-[#39cccc] flex justify-center items-start p-2'>

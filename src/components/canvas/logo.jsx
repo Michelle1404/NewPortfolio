@@ -35,7 +35,7 @@ const LogoCanvas = () => {
                 fov: 30,
                 near: 0.1,
                 far: 200,
-                position: [0.3, 5, 6],
+                position: [2, 3, 6],
                 
             }}
             >
