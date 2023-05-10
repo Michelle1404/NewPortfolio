@@ -19,36 +19,36 @@ const Footer = () => {
         >
           <span className="font-thin">©Michelle`s 2023</span>
         </Link>
-        <div className="w-20 h-20 cursor-pointer">
-          <a href="https://github.com/Michelle1404" target="_blank">
+        <div className="w-16 h-16 cursor-pointer flex items-center justify-center">
+          <a href="https://github.com/Michelle1404" target="_blank" className="w-1/2 h-1/2 ">
             <img
               src={github}
               alt="source code"
-              className="w-1/2 h-1/2 object-contain"
+              className="object-contain"
             />
           </a>
         </div>
-        <div className="w-20 h-20 cursor-pointer">
+        <div className="w-16 h-16 cursor-pointer flex items-center justify-center">
           <a
             href="https://www.linkedin.com/in/michelle-w-5a38a8250/"
-            target="_blank"
+            target="_blank" className="w-1/2 h-1/2 "
           >
             <img
               src={linkedin}
               alt="source code"
-              className="w-1/2 h-1/2 object-contain"
+              className="object-contain"
             />
           </a>
         </div>
-        <div className="w-20 h-20 cursor-pointer">
+        <div className="w-16 h-16 cursor-pointer flex items-center justify-center">
           <a
             href="https://www.xing.com/profile/Michelle_Wollowski/cv"
-            target="_blank"
+            target="_blank" className="w-1/2 h-1/2 "
           >
             <img
               src={xing}
               alt="source code"
-              className="w-1/2 h-1/2 object-contain"
+              className="object-contain"
             />
           </a>
         </div>

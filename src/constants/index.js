@@ -9,9 +9,9 @@ import {
   git,
   figma,
   dci,
-  carrent,
-  jobit,
-  tripguide,
+  firstPortfolio,
+  induPro,
+  wip,
   express,
   sass,
   bootstrap,
@@ -90,7 +90,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: `Weiterbildung: Web- und Softwareentwickler/in`,
+    title: `Weiterbildung:`,
+    name: "Web-und Softwareentwicklerin",
     company_name: "DCI Digital Career Institute GmbH",
     icon: dci,
     iconBg: "#E6DEDD",
@@ -98,12 +99,13 @@ const experiences = [
     points: [
       "1-jährige Vollzeit Weiterbildung im Bereich Full-Stack Webentwicklung (MERN Stack)",
       "Durchführung mehrerer Projekte",
-      "Abschließenden praktischen Projekts zur Festigung der Programmierkenntnisse",
+      "Abschließenden praktischen Projekt zur Festigung der Programmierkenntnisse",
       "Teilnahme am Englischunterricht im Rahmen des Kurses",
     ],
   },
   {
-    title: "Orientierungskurs: Web-Development und Online Marketing",
+    title: "Orientierungskurs:",
+    name: "Web-Development und Online Marketing",
     company_name: "DCI Digital Career Institute GmbH",
     icon: dci,
     iconBg: "#E6DEDD",
@@ -116,63 +118,95 @@ const experiences = [
   },
 ];
 
+const getColorForTagName = (tagName) => {
+  switch (tagName) {
+    case "html":
+      return "text-[#FF6D00]";
+    case "css":
+      return "text-[#0277BD]";
+    case "Javascript":
+      return "text-[#0D0808]";
+    case "react":
+      return "text-[#53C1DE]";
+    case "tailwind":
+      return "text-[#00A4C1]";
+    case "nodeJs":
+      return "text-[#21A366]";
+    case "mongodb":
+      return "text-[#4CAF50]";
+    case "git":
+      return "text-[#0D0808]";
+    case "scss":
+      return "text-[#0277BD]";
+    case "wordpress":
+      return "text-[#1B769C]";
+    case "expressJs":
+      return "text-[#828282]";
+    case "Bootstrap":
+      return "text-[#7A11F7]";
+    case "firebase":
+      return "text-[#FFC400]";
+    default:
+      return "text-gray-500";
+  }
+};
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "Altes Portfolio",
+    details: "War das erste Abschluss Projekt nach 3 Monaten für UI",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "HTML",
+        color: getColorForTagName("html"),
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "CSS",
+        color: getColorForTagName("css"),
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: firstPortfolio,
+    source_code_link:
+      "https://portfolio-michelle-2ib2m842o-michelle1404.vercel.app/",
+    website: true,
   },
   {
-    name: "Job IT",
+    name: "Indu-Pro",
+    details: "Ist eine Beratungs/-Dienstleistungs Firma für Photovoltaik",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Wordpress",
+        color: getColorForTagName("wordpress"),
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: induPro,
+    source_code_link: "https://indu-pro.de/",
+    website: true,
   },
   {
-    name: "Trip Guide",
+    name: "Work in Progress",
+    details: "Lorem ipsum dolor sit am",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "React JS",
+        color: getColorForTagName("react"),
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Tailwind",
+        color: getColorForTagName("tailwind"),
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "MongoDB",
+        color: getColorForTagName("mongodb"),
+      },
+      {
+        name: "Express.JS",
+        color: getColorForTagName("expressJs"),
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wip,
+    source_code_link: "https://github.com/Michelle1404",
+    website: false,
   },
 ];
 

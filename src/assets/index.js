@@ -21,9 +21,9 @@ import firebase from "./tech/firebase.png";
 
 import dci from "./company/dci.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import induPro from "./company/induPro.png";
+import firstPortfolio from "./company/firstPortfolio.png";
+import wip from "./company/wip.jpg";
 
 export {
   logo,
@@ -39,10 +39,10 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  carrent,
-  jobit,
-  tripguide,
   dci,
+  firstPortfolio,
+  induPro,
+  wip,
   express,
   sass,
   bootstrap,
