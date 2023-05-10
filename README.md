@@ -13,7 +13,7 @@ Auf meiner Website findest du folgendes:
 - Mein IT Lebenslauf und meine Erfahrungen
 - Meine Projekte mit Live-Demos, Quellcode oder Links zu Git Repos
 - Ein Kontaktformular, über das du mir direkt Nachrichten senden kannst
-- Ein 3D-Hintergrund aus 3JS mit beweglichen 3D-Objekten und Logo
+- Ein 3D-Hintergrund aus 3JS mit beweglichen 3D-Objekten
 - Animationen und Übergänge mit Framer Motion
 - Ein responsives Design mit Tailwind CSS
 
