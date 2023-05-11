@@ -11,7 +11,7 @@ const LogoGltf = () => {
     <>
       <primitive
         object={logo.scene}
-        scale={0.15}
+        scale={0.12}
         position-y={0}
         rotation-y={0}
       />
