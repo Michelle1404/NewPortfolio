@@ -25,12 +25,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative w-full h-[30%]">
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+      <div
         className='h-full w-full justify-center flex'
       >
         <ComputersCanvas /> 
-      </motion.div>
+      </div>
 
    </div>
       
