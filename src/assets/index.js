@@ -21,9 +21,9 @@ import firebase from "./tech/firebase.png";
 
 import dci from "./company/dci.png";
 
-import induPro from "./company/induPro.png";
+import induPro from "./company/induPro.webp";
 import firstPortfolio from "./company/firstPortfolio.png";
-import wip from "./company/wip.jpg";
+import wip from "./company/wip.webp";
 
 export {
   logo,
